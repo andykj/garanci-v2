@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Aug, 2016, 4:10:05 PM
+    Author     : zishan
+*/
+
+
+.textCenter{
+    
+    text-align: center;
+    
+    padding-bottom: 10px;
+}
+body{
+
+    padding: 0;
+
+    margin: 0;
+}
+#headercontainer
+{
+    width: 100%;
+
+    height: 80px;
+
+    background-color: white;
+
+}
+#t1container
+{
+    width: 100%;
+
+    height: 310px;
+
+    background-color: black;
+}
+
+#t2container
+{
+    width: 100%;
+
+    min-height: 200px;
+    
+    height:auto;
+
+    background-color: white;
+}
+
+#t3container
+{
+    width: 100%;
+
+    height: auto;
+    min-height: 330px;
+
+    border: 1px solid black;
+    float: left;
+    border: 1px solid black;
+
+    background-color: black;
+}
+
+#t4container
+{
+    width: 100%;
+
+    height: 150px;
+
+    background-color: white;
+}
+
+#headercontainermain
+{
+    width: 1000px;
+
+    margin: 0 auto;
+
+    height: 80px;
+
+    background-color: white;
+
+}
+#t1containermain
+{
+    width: 1000px;
+
+    height: 310px;
+    margin: 0 auto;
+
+    background-color: black;
+}
+#t1containermainleft
+{
+    width: 700px;
+    height: 100%;
+    padding: 50px;
+    // background-color: blue;
+    float: left;
+}
+#t1containermainleft p
+{
+    color: white;
+}
+
+#t1containermainright
+{
+    width: 300px;
+    height: 100%;
+    // background-color: pink;
+    float: left;
+}
+#t2containermain
+{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#t3containermain
+{
+    width: 1000px;
+    //float: left;
+    border: 1px solid black;
+    margin: 0 auto;
+    color: white;
+    height: auto;
+
+
+    background-color: black;
+}
+#t3containermainleft
+{
+    height: auto;
+
+    //background-color: pink;
+    float: left;
+    padding: 50px;
+    border: 1px solid black;
+    width: 50%;
+
+}
+#t4containermainleft
+{
+    height: 100%;
+
+    //background-color: pink;
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+#t3containermainright
+{  height: auto;
+   padding: 50px;
+
+   //  background-color: yellow;
+   float: left;
+   width: 50%;
+
+}
+#t4containermainright
+{
+    height: 100%;
+    padding: 20px;
+
+    //  background-color: yellow;
+    float: left;
+    width: 50%;
+}
+li
+{
+    list-style: none;
+}
+.ancer{
+    color: black;
+}
+#t4containermainleft1,#t4containermainleft2
+{//background-color: yellow;
+ width: 50%;
+ height: 100%;
+ color: black;
+ float: left;
+}
+#t4containermain
+{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+
+    background-color: white;
+}
+.t2containermainimagecontainer
+{
+    width: 166.67px;
+    text-align: center;
+    height: 200px;
+    // background-color: blue;
+    float: left;
+}
+.t2containermainimagecontainerimage
+{
+    width: 90px;
+    height: 90px;;
+
+
+    // background-color: yellow;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.images
+{
+    border-radius: 100%;
+    height: 100%;width: 100%;
+}
+.detailchild
+{
+    width: 100%;
+    overflow: auto;
+    height: 500px;
+    float: left;
+    background-color: white;
+}
+
+.productList
+{
+    width: 100%;
+
+    padding: 20px;
+
+    height: auto;
+
+    color: black;
+
+    float: left;
+
+    border-bottom: 1px solid rgba(0,0,0,.3);
+
+    background-color: white;
+}

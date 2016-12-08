@@ -1,0 +1,615 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Aug, 2014, 7:07:01 PM
+    Author     : zishan
+*/
+body
+{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+#main-container1{
+    width: auto;
+    height: auto;
+}
+#main-container{
+    width: auto;
+    height: auto;
+    background-color: black;
+    min-width: 990px; 
+}
+#top-header
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 80px;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+.headerInside
+{
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 48px;
+    float: right;
+}
+#headerInsideRight
+{
+    text-decoration: none;
+    text-align: right;
+    color: #AAA;
+    font-size: 16px;
+}
+.headerInsideRight
+{
+    margin-right: 25px;
+    color: #AAA;
+    text-decoration: none;
+}
+.headerInsideRight:hover
+{
+    text-decoration: underline;
+    color: #AAA;
+}
+.logo{
+    float:left;
+    height: 50px;
+    padding: 0 auto;
+    margin-left: 20px;
+}
+.logo a{
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+#row{
+    width: 300px;
+    float: right;
+    margin-top: 1.5em;
+}
+#headerTitle{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+}
+#headerTitle a{
+        color: #AAA;
+ }
+#container{
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 auto;
+    padding-bottom: 5em;
+   
+}
+#container2{
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 auto;
+    padding-bottom: 7.5em;
+   
+}
+#homeTitle{ 
+    margin-top: 80px;
+    width: 600px;
+    float: left;
+}
+#signUpContainer{
+    width: 960px;
+   font-family: 'Open Sans';
+}
+#Imglogo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+}
+#imageSideQuote{
+    float: left;
+    color: white;
+    padding: 0 auto;
+    padding-left: 50px;
+    padding-top: 15px;
+    height: 190px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+#tradeMark{
+    color: white;
+    width: 104px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 50px;
+    float: right;
+}
+
+#beta{
+    color: black;
+    width: 104px;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 50px;
+    float: right;
+}
+
+#imageBottomQuote{
+    float: bottom;
+    width: 700px;
+    overflow: auto;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: Open Sans;
+}
+#signUpDiv
+{
+    float: right;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-right: 25px;
+    background-color: black;
+    width: 350px;
+    color: #000;
+ }
+ #signUpDiv p{
+     color: white;
+ }
+.inputField{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin: 0 auto; 
+    margin-bottom: 5px;
+    padding:10px;
+    font-size: 20px;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+    border: 1px solid;
+    border-radius:6px;
+    text-overflow: clip;
+    behavior: url(PIE-1.0.0/PIE.htc);
+    
+ }
+.cntryCode{
+    width: 102px;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display:inline-block;
+    height:50px;
+    border: 1px solid;
+    font-size:20px;
+    color:#555555;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    vertical-align:middle;
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+.contactNum{
+    width: 218px;
+    height: 50px;
+    float: right;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding:10px;
+    font-size: 20px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 1px solid;
+    border-radius:6px;
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+.emailId{
+    width: 320px;
+    height: 50px;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding:10px;
+    font-size: 20px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 1px solid;
+    border-radius:6px;
+    behavior: url(PIE-1.0.0/PIE.htc);
+ }
+.userPassword{
+    width: 320px;
+    height: 50px;
+    float: left;
+    margin: 0 auto;
+    padding:10px;
+    font-size: 20px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 1px solid;
+    border-radius:6px;
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+#terms
+{
+    margin-top: 260px;
+    width: 325px;
+}
+#terms a{
+    text-decoration: none;
+}
+#insideContainer{
+    margin-top: 50px;
+    width: auto;
+}
+#insideContainer1{
+    margin-top: 100px;
+    width: auto;
+}
+.term{
+    background: #000 url(../img/pattern.jpg) left top repeat;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    text-align: left;
+    color: white;
+    margin: 0 auto;
+   behavior: url(PIE-1.0.0/PIE.htc);
+}
+.term p{
+    font-size: 15px; 
+}
+#termDiv{
+    padding: 15px;
+    margin: 0 auto;
+    width: 935px;
+}
+.about{
+    padding: 20px 50px 40px 50px;
+    background: #000 url(../img/pattern.jpg) left top repeat;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+.about p{
+    font-size: 16px; 
+}
+.register form {
+    padding: 20px 50px 40px 50px;
+    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    text-align: center;
+    margin: 0 auto;
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+.register form h2 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    border-bottom: 2px dotted #bbb;
+}
+#logInDiv{
+    margin: 0 auto;
+    width: 550px;
+}
+#formText{
+   font-family: 'Open Sans';
+    text-align: left;
+}
+#signInButton{
+    width: 60%;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0;
+    background:#60B044;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    font-family: 'Open Sans';
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+#resetButton{
+    width: 60%;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0;
+    background:#60B044;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    font-family: 'Open Sans';
+    behavior: url(PIE-1.0.0/PIE.htc);
+}
+#ErrorDiv{
+    height: 60px;
+    margin-bottom:15px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+#ErrorDiv1{
+    height: 15px;
+    //margin-bottom:25px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+#warningMsg{
+    height: 60px;
+    padding-top: 15px;
+}
+#warningMsg2{
+    height: auto;
+    width: auto;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    overflow: hidden;
+}
+#errorDiv{
+    width: auto;
+    height: auto;
+    color: white;
+    font:bold 14px 'Open Sans';
+    text-align: center;
+}   
+#about{
+    font-family: 'Open Sans';
+    border-bottom: none;
+    margin: 90px 0px 0px;
+}
+
+#about h3{
+    font-size: 3em;
+    font-weight: bold;
+} 
+#about p{
+    margin: 1em auto 0px;
+    line-height: 1.5em;
+    font-size: 23px;
+
+}
+#containerMiddle{
+    border-bottom: 2px solid #EEE;
+}
+#rowMiddleId{
+    margin: 0 auto;
+    margin-top: 6em;
+    margin-left: 3.5em;
+    font-family: 'Open Sans';
+}
+#insideRow{
+    width: 30em;
+    height: 20em;
+    
+}
+#rowMiddleImg{
+     width: 90px;
+     height: 90px;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+     border: #AAA 1px solid;
+     padding: 0 auto;
+     padding-top: 1.2em;
+     padding-left: 1.3em;
+     margin-left: 10.5em;
+     behavior: url(PIE-1.0.0/PIE.htc);
+}
+#middleIcons{
+    height: 50px;
+    width: 50px;    
+}
+#signUpButton{
+    cursor: pointer;
+    width: 100%;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 0;
+    background: #60B044;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    behavior: url(PIE-1.0.0/PIE.htc);
+    border: 0;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    font-family: 'Open Sans';
+    //font-size: 16px;
+    float: right;
+    font-weight: 400;
+    color: black;//#fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+#signUpButton a{
+    color: white;
+}
+#iosContainer{
+    margin-bottom: 40px;
+}
+#iosDownButton{
+    width: 350px;
+    height: 50px;
+    margin-top: 15px;
+    background:#60B044;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    font-family: 'Open Sans';
+    overflow: hidden;
+}
+#IosSnapShort{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+    overflow: hidden;
+}
+#IosApp{
+    height: 280px;
+    width: 160px;
+    border:1px solid #AAA;
+    margin-left: 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+#toTopDiv{
+    width: auto;
+    height: 50px;
+    min-width: 960px;
+}
+#toTop{
+    margin: 0 auto;
+    margin-right:50px; 
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#bottom-footer{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+#footer
+{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 48px;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+
+.footerInside
+{
+    margin: 0 auto;
+    height: 48px;
+    width: 460px;
+    overflow: hidden;
+    float: left;
+}
+#footerInsideLeft
+{
+    text-align: left;
+    color: #AAA;
+    font-size: 16px;
+}
+.footerInsideLeft
+{
+    margin-left: 25px;
+    color: #AAA;
+    text-decoration: none;
+}
+.footerInsideLeft:hover
+{
+    text-decoration: underline;
+    color: #AAA;
+}
+#footerInsideRight
+{
+    text-decoration: none;
+    text-align: right;
+    color: #AAA;
+    font-size: 16px;
+}
+.footerInsideRight
+{
+    margin-right: 25px;
+    color: #AAA;
+    text-decoration: none;
+}
+.footerInsideRight:hover
+{
+    text-decoration: underline;
+    color: #AAA;
+}
+#GaranciFooterLogo
+{
+    margin: 0 auto;
+    //margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+#copyRight
+{
+    margin-left: 20px;
+    color: #AAA;
+}
+.companyRef
+{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+}
+.companyRef:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+.version
+{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+}
+.version:hover
+{
+    text-decoration: none;
+    color: black;
+}
+.sitesealDiv{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

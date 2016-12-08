@@ -1,0 +1,74 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<script src="js/bootstrap.min.js" type="text/javascript" ></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--        <link href="http://fortawesome.github.io/Font-Awesome/ https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" />-->
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+<div class="container" style="padding: 0;">
+    <nav role="navigation" class="navbar navbar-default" style="margin-top: 50px;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" style="color: black">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="HomePage" class="navbar-brand" style="color: black;font-size: 25px;font-weight: bold"> 
+
+                Garanci
+            </a>
+
+
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+
+            <form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
+
+            <ul class="nav navbar-nav navbar-left">
+                <li> <a href="#"><strong>Solutions</strong></a></li>
+                <li> <a href="#" ><strong>Explore</strong></a></li>    
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="default?action=login"><strong>Login</strong></a></li>
+                <li><a href="default"><strong>Sign Up</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- <div style="width: 1000px;height: 80px;;background-color: white;margin: 0 auto;" >
+
+                    <div id="header">
+
+                        <div class="logo" style="border: 1px solid transparent;margin-right: 20px;">
+
+                            <a href="HomePage">Garanci</a>
+
+                        </div>
+
+                        <input type="text" class="form-control" style="width: 300px;margin-left: 50px;;margin-top: 12px;float: left;" placeholder="search garanci"/>
+                        <div style="border: 1px solid transparent;margin-right: 20px;height: 60px;;width: auto;;float: left;">
+
+                            <p style="margin-top: 15px;text-align: left">  <a href="default" style="margin-left: 85px;;font-size: 20px;font-weight: bold;color:  black">Explore</a>
+                                <a href="solutions.jsp" style="margin-left: 20px;font-size: 20px;font-weight: bold;color:  black;">Solutions</a>
+
+                                <a href="default?action=login" style="margin-left: 20px;font-size: 15px;;font-weight: bold;color:  black;">Log In</a>
+                                    <a href="default" style="margin-left: 20px;font-size: 15px;;font-weight: bold;color:  black;">Sign Up</a>
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>-->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/searchResult.jsp</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/utility/DatabaseUtility.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/WEB-INF/NewSIgnUpPage.jsp</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/homePage.jsp</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/utility/contextListner.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/productDetailPage.jsp</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/timerReseter.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/utility/TimeScheduler.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/utility/StagingRecordFetcher.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/getReportData.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/WEB-INF/web.xml</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/ProductDetail.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/searchResult.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/HomePage.java</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/web/headerjspf.jspf</file>
+            <file>file:/home/zishan/PROJECTS/Garancy/garanciweb/trunk/src/java/com/garanci/backend/Action.java</file>
+        </group>
+    </open-files>
+</project-private>

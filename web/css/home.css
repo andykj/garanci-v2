@@ -1,0 +1,531 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Aug, 2014, 7:07:01 PM
+    Author     : zishan
+*/
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+#header
+{
+    height: 49px;
+    width: 100%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+#headerInside
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0px;
+    height: 48px;
+}
+#logoDiv
+{
+    height: 48px;
+    width: auto;
+    float: left;
+    margin-left: 18px;
+}
+#GaranciLogo
+{
+    margin-top: 6px;
+    height: 37px;
+    width: 37px;
+    cursor: pointer;
+}
+#GaranciFooterLogo
+{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+#receiptFormNotes
+{
+    font-size: 10px;
+}
+#settingDiv
+{
+    float: right;
+    height: 48px;
+    width: auto;
+    margin-right: 17px;
+}
+.settingIcon
+{
+    margin-top: 15px;
+    height: 17px;
+    width: 17px;
+    float: left;
+    margin-left: 25px;
+}
+.settingIcon:hover
+{
+    cursor: pointer;
+}
+#welcomeMsg
+{
+    float: left;
+    margin-top: 15px;
+     margin-left:25px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+#welcomeMsg:hover
+{
+    cursor: pointer;
+}
+#dropDown
+{
+    cursor: pointer;
+}
+#container
+{
+    margin: 0 auto;
+    width: 960px;
+}
+#processMsg
+{
+    float: right;
+}
+#planSelect0{
+    height: 34px;
+    width: 80px;
+    padding: 0px 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.planDurSelect{
+    height: 34px;
+    width: 80px;
+    padding: 0px 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+ 
+}
+#PlanSpan{
+    padding: 0px 0px;
+    border: none;
+}
+#hide {
+    display:none;
+}
+.submitButton
+{
+    margin-left: 7px;
+}
+ 
+.rating input {
+    position:absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0;
+    cursor:pointer;
+    width:17px;
+
+}
+ 
+.rating span {
+    width:24px;
+    height:16px;
+    line-height:16px;
+    padding:1px 22px 1px 0; /* 1px FireFox fix */
+    background:url(../images/stars.png) no-repeat -22px 0;
+}
+.rating input:checked + span {
+   
+    background-position:-22px 0;
+}
+.rating input:checked + span ~ span {
+
+    background-position:0 0;
+}
+.rating{
+    float: left;
+}
+.ratingDiv{
+    float: right;
+    width: auto;
+    height: auto;
+}
+#dashboardDiv
+{
+    min-width: 500px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#dashboardHeader
+{
+    height: 70px;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 600;
+    width: auto;
+    background-color: #F5F5F5;
+    padding: 5px;
+    border: 1px solid #E5E5E5;
+}
+#dashboardBody
+{
+    background-color: #F5F5F5;
+    height: auto;
+    width: auto;
+    overflow: auto;
+    font-size: 15px;
+}
+#dashboardBody h3{
+    font-size: 13px;
+}
+#colorDiv{
+    font-size:17px;
+    color: black;
+}
+#yellow{
+    background-color: #FE0;
+     color: black;
+}
+#orange{
+    background-color: #F0AD4E;
+     color: black;
+}
+#red{
+    background-color: #D9534F;
+     color: black;
+}
+.accordionDiv
+{
+    font-size: 12.5px;
+}
+.showScanProd{
+    visibility: hidden;
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index:2;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    overflow-x:auto;
+}
+.insideScanProd{
+    width:970px;
+    height: auto;
+    background-color: white;
+    margin: 140px auto;
+    margin-top: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: hidden;
+ }
+ #popUpTable{
+     width: auto;
+     overflow-x:auto;
+ }
+ .cancel{
+    width: 960px;
+    height: 35px;
+    overflow: hidden;
+ }
+ .cancel img{
+     float: right;
+ }
+ #productTable{
+     width: auto;
+ }
+ .cancel img {
+     margin-bottom: 30px;
+     margin-left: 10px;
+ }
+.returnDate
+{
+    width: 190px;
+}
+.textArea
+{
+    width: 190px;
+    height: 70px;
+}
+.textareaNote{
+    font-size: 12.5px;
+}
+#productDescList{
+    border-radius: 5px;
+}
+#productList{
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin: 10px;
+      margin-right: 0px;
+      margin-left: 0px;
+    //margin-bottom: 10px;
+}
+.msg
+{
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#dashboardBody h3{
+    height: 50px;
+}
+#dashboardBody table{
+    margin-top: 7px;
+}
+#darkred{
+    color: darkred;
+}
+.colorDiv
+{
+    margin-top: 3px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+}
+.colorDivTd
+{
+    width: 25px;
+}
+.productHeader
+{
+    width: 30px;
+    height: 19px;
+}
+.warrentyHeader{
+    width: 70px;
+}
+.warrentyHeaderType{
+    width: 103px;
+}
+.productDesc{
+    width: 140px;
+    height: 19px;
+    padding-top: 2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.productPlanService
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 70px;
+}
+#planDurDiv{
+    z-index:1;
+    width: 100%;
+}
+#optionDiv
+{
+    margin-bottom: 10px;
+}
+#optionDivNotes
+{
+    margin-bottom: 10px;
+}
+.msgDiv{
+    padding: 3px;
+}
+#createReceiptDiv
+{
+    width: auto;
+    height: auto;
+    float: right;
+}
+#createReceipt
+{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+#createReceipt:hover
+{
+    text-decoration: underline;
+}
+#householdDiv
+{
+   border: 1px #E5E5E5 solid;
+}
+.lableFloat{
+    padding-left: 7px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    text-align: left;
+}
+#householdHeader
+{
+    background-color: #F5F5F5;
+    border-bottom: 1px #E5E5E5 solid;
+    padding: 5px;
+    font-weight: bold;
+}
+#householdBody
+{
+    padding: 5px;
+    font-size: 13.5px;
+}
+#householdForm
+{
+    margin: 15px auto;
+    width: 850px;
+}
+#chooseReceipt{
+    overflow: hidden;
+}
+#popUpHeader
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+}
+#addReceipt
+{
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+    
+}
+#processImage
+{
+    height: 30px;
+    width: 30px;
+}
+#errorDiv{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#userProfileDiv
+{
+    min-width: 500px;
+    height: auto;
+    width: 55%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+#profileHeader
+{
+    height: 40px;
+    width: 100%;
+    line-height: 30px;
+    font-weight: 600;
+    width: auto;
+    background-color: #F5F5F5;
+    padding: 5px;
+    border: 1px solid #AAA;
+    border-bottom: 0;
+}
+#profileBody
+{
+   
+    height: auto;
+    width: auto;
+    padding: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    border: 1px solid #AAA ;
+    font-size: 13.5px;
+}
+
+#profileButton{
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+#cancelButton{
+    margin: 0 auto;
+    margin-bottom: 14px; 
+    margin-left: 30px;
+}
+
+#contact:hover
+{
+    cursor: pointer;
+}
+#footer
+{
+    width: 960px;
+    margin: 20px auto;
+    height: 48px;
+    background-color: black;
+    border-radius: 5px;
+}
+.footerInside
+{
+    margin-top: 20px;
+    height: 48px;
+    width: 465px;
+    overflow: hidden;
+    float: left;
+    font-size: 11px;
+}
+#footerInsideLeft
+{
+    text-align: left;
+    color: white;
+}
+.footerInsideLeft
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.footerInsideLeft:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+#footerInsideRight
+{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+.footerInsideRight
+{
+    //margin-right: 10px;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+.footerInsideRight:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+#copyRight
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}

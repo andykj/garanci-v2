@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Oct, 2014, 6:45:55 PM
+    Author     : zishan
+*/
+
+#appleStore
+{
+    margin: 40px auto;
+    height: 110px;
+    width: 280px;
+    cursor: pointer;
+}
+#iosApp
+{
+    height: 335px;
+    width: 215px;
+    border:1px solid #AAA;
+    margin: 35px auto;
+    padding: 0;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+#header
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+#headerInside
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0px;
+    height: 59px;
+}
+#logoDiv
+{
+    height: 59px;
+    width: auto;
+    float: left;
+    margin-left: 18px;
+}
+#GaranciLogo
+{
+    margin-top: 6px;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+#container
+{
+    text-align: center;
+}
+#container div div
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#GaranciFooterLogo
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+#footer
+{
+    width: 960px;
+    margin: 20px auto;
+    height: 59px;
+    background-color: black;
+    border-radius: 5px;
+}
+.footerInside
+{
+    margin-top: 20px;
+    height: 59px;
+    width: 465px;
+    overflow: hidden;
+    float: left;
+    font-size: 11px;
+}
+#footerInsideLeft
+{
+    text-align: left;
+    color: white;
+}
+.footerInsideLeft
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.footerInsideLeft:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+#footerInsideRight
+{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+.footerInsideRight
+{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.footerInsideRight:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+#copyRight
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
